@@ -1,0 +1,40 @@
+<!DOCTYPE html><!--  main.css 스타일시트와 main.js 스크립트를 연결함  -->
+<html lang="en"> <!-- 주 언어는 영어이며 검색엔진과 스크린 리더 등이 참고함 --> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task App 2025</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+      rel="stylesheet"
+    /> <!-- 각종 아이콘을 사용하기 위한 폰트 연결  -->
+    <link rel="stylesheet" href="main.css" /> <!-- 스타일 시트 연결  -->
+  </head>
+  <body> 
+    <main>
+      <div class="app"> <!-- 주요 앱 영역을 main 태그로 감싸고 있다 -->
+        <header>
+          <h1 >Todos 앱</h1> <!-- JavaScript에서 이벤트를 걸어 새로운 할 일을 만들 때 사용됨 -->
+          <button id="create-btn">새로운 todo 추가하기</button>
+          <button id="toggle-darkmode">다크모드</button>
+        </header>
+
+        <div class="todo-list" id="list">
+          <!-- <div class="item">  예시로 작성된 Todo 항목구조
+					<input type="checkbox" />
+					<input 
+						type="text" 
+						value="Todo content goes here"  할 일 내용 입력
+						disabled />
+					<div class="actions">
+						<button class="material-icons">edit</button> 수정버튼
+						<button class="material-icons remove-btn">remove_circle</button> 삭제버튼
+					</div>
+				</div> -->
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script> <!-- 동적 기능을 담당하는 자바스크립트 연결 -->
+  </body>
+</html>
